@@ -21,7 +21,7 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>5.5+ year</small>
+              <small>6.5+ year</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
@@ -30,7 +30,7 @@ const Intro = () => {
             </article>
           </div>
           <p>
-             Passionate Full Stack Developer with 5.5+ years of hands-on experience in developing scalable websites/applications using a wide range of front-end and back-end skills like HTML, CSS, Javascript, ReactJs, Redux, NodeJs etc.
+             Passionate Full Stack Developer with 6.5+ years of hands-on experience in developing scalable websites/applications using a wide range of front-end and back-end skills like HTML5, CSS3, Javascript, ReactJs, Redux, NodeJs etc.
              Collaborative team player with expertise in managing the software development life cycle and delivering projects on time.
           </p>
           <a href="#contact" className="btn btn-primary">

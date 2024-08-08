@@ -1,26 +1,37 @@
 import "./Portfolio.css";
 
-import IMG1 from "../../assets/Quiz_App.png";
-import IMG2 from "../../assets/Star_Rating.png";
-import IMG3 from "../../assets/Password_Generator.png";
+import IMG1 from "../../assets/Currency-Converter.png";
+import IMG2 from "../../assets/Quiz_App.png";
+import IMG3 from "../../assets/Star_Rating.png";
+import IMG4 from "../../assets/Password_Generator.png";
 import React from "react";
 
 //Portfolio function
 const Portfolio = () => {
   const soloProjects = [
+    
     {
       id: 1,
-      title: "Quiz App",
+      title: "Currency Converter",
       img: IMG1,
+      description: "Currency Converter with React JS and Tailwind CSS",
+      technologies: "Html | CSS | Javascript | React Js",
+      link: "https://currency-converter-lime-five.vercel.app/",
+      github: "https://github.com/sutartejas/currency-converter",
+    },
+    {
+      id: 2,
+      title: "Quiz App",
+      img: IMG2,
       description: "Quiz app for taking and creating MCQ's based quizzes using ReactJS.",
       technologies: "Html | CSS | Javascript | React Js",
       link: "https://quiz-app-flame-chi.vercel.app/",
       github: "https://github.com/sutartejas/quiz-app",
     },
     {
-      id: 2,
+      id: 3,
       title: "Star Rating App",
-      img: IMG2,
+      img: IMG3,
       description: "Simple Star Rating React Component.",
       technologies: "Html | CSS | Javascript | React Js",
       link: "https://star-rating-cyan.vercel.app/",
@@ -28,9 +39,9 @@ const Portfolio = () => {
       
     },
     {
-      id: 3,
+      id: 4,
       title: "Password Generator",
-      img: IMG3,
+      img: IMG4,
       description: "Password Generator is an application to generate a strong password.",
       technologies: "Html | CSS | Javascript | React Js",
       link: "https://password-generator-eight-sepia.vercel.app/",
